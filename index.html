@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Food Menu</title> 
+  <link rel="stylesheet" href="styles.css"> 
+ <style type="text/css" id="dcoder_stylesheet">/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styling */
+header {
+  display: flex; /* Aligns items in a row (logo + text) */
+  align-items: center; /* Vertically centers the logo and text */
+  justify-content: center; /* Centers everything horizontally */
+  padding: 10px 20px; /* Reduced padding for a more compact header */
+  background-color: #333; /* Very dark background color */
+}
+
+/* Logo Image Styling */
+header img {
+  width: 50px; /* Adjust the logo size */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 15px; /* Adjust space between logo and text */
+  vertical-align: middle; /* Ensure the logo aligns with the text vertically */
+}
+
+/* Header Text Styling */
+header h1 {
+  font-size: 2.5rem; /* Reduce font size for better alignment */
+  font-weight: bold; /* Emphasize the text */
+  color: #fff; /* White color for the text to contrast with the dark background */
+  margin: 0; /* Remove any margin to prevent extra space */
+  display: inline-block; /* Make the text behave like inline element */
+}
+
+
+
+/* Main content styling */
+main {
+  padding: 1rem;
+}
+
+/* Menu category styling */
+.menu-category {
+  margin-bottom: 2rem;
+}
+
+.menu-category h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Menu items grid styling */
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+/* Menu item styling */
+.menu-item {
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+  max-width: 400px; /* Limit the maximum width of each menu item */
+  margin: 20px auto; /* Center the menu item with spacing around it */
+  box-sizing: border-box;
+}
+
+/* Menu Item Image Styling */
+.menu-item img {
+  width: 100%; /* Make the image fill the container */
+  height: 200px; /* Set a fixed height for all images */
+  object-fit: cover; /* Ensure the image covers the container without distortion */
+  max-width: 100%; /* Prevent the image from overflowing the container */
+  border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+
+/* Menu item text styling */
+.menu-item h3 {
+  margin: 0 0 0.5rem;
+}
+
+.menu-item p {
+  margin: 0 0 1rem;
+  color: #555;
+}
+
+.menu-item span {
+  font-weight: bold;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+/* Hover effect for menu items */
+.menu-item:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .menu-items {
+    grid-template-columns: 1fr; /* Stack items in a single column */
+  }
+
+  .menu-item {
+    padding: 0.5rem; /* Adjust padding for smaller screens */
+  }
+}</style></head> 
+ <body> 
+  <header> 
+   <div class="logo"> 
+    <img src="https://i.postimg.cc/43FX7vLC/Delicious-Restaurant-Logo-Design-Template.jpg" alt="Restaurant Logo"> 
+    <h1>Delicious Eats</h1> 
+   </div> 
+  </header> 
+  <main> <!-- Starters Category --> 
+   <section class="menu-category"> 
+    <h2>Starters</h2> 
+    <div class="menu-items"> 
+     <div class="menu-item"> 
+      <img src="https://i.postimg.cc/BQMJjjqG/delicious-looking-spring-rolls-plate-with-sauce-black-background-826454-688.jpg" alt="Spring Rolls"> 
+      <h3>Spring Rolls</h3> 
+      <p>Fresh and crispy rolls served with sweet chili sauce.</p> <span>₹497.17</span> 
+     </div> 
+     <div class="menu-item"> 
+      <img src=" https://i.postimg.cc/PNGYf4MM/images-1.jpg" alt="Garlic Bread"> 
+      <h3>Garlic Bread</h3> 
+      <p>Toasted bread topped with garlic and herbs.</p> <span>₹414.17</span> 
+     </div> 
+    </div> 
+   </section> <!-- Main Course Category --> 
+   <section class="menu-category"> 
+    <h2>Main Course</h2> 
+    <div class="menu-items"> 
+     <div class="menu-item"> 
+      <img src="https://i.postimg.cc/C1TYwrB1/spaghetti-alla-puttanesca-italian-pasta-dish-with-tomatoes-black-olives-capers-anchovies-and.jpg" alt="Pasta"> 
+      <h3>Spaghetti Pasta</h3> 
+      <p>A classic pasta served with marinara sauce.</p> <span>₹664.17</span> 
+     </div> 
+     <div class="menu-item"> 
+      <img src="https://i.postimg.cc/5tFYPGWN/29-0012082-649d9fcc35e2c.png " alt="Burger"> 
+      <h3>Cheese Burger</h3> 
+      <p>Juicy meat patty with melted cheese and fresh veggies.</p> <span>₹748.17</span> 
+     </div> 
+    </div> 
+   </section> <!-- Desserts Category --> 
+   <section class="menu-category"> 
+    <h2>Desserts</h2> 
+    <div class="menu-items"> 
+     <div class="menu-item"> 
+      <img src="https://i.postimg.cc/xj7rQFwS/appetizing-chocolate-brownie-closeup-with-vanilla-ice-cream-poured-with-dark-chocolate-black-backgro.jpg " alt="Ice Cream"> 
+      <h3>Chocolate Ice Cream</h3> 
+      <p>Rich and creamy chocolate ice cream.</p> <span>₹332.50</span> 
+     </div> 
+     <div class="menu-item"> 
+      <img src="https://i.postimg.cc/rsq7nvbB/images-4.jpg" alt="Cake"> 
+      <h3>Chocolate Cake</h3> 
+      <p>Moist chocolate cake with chocolatey burst.</p> <span>₹499.50</span> 
+     </div> 
+    </div> 
+   </section> 
+  </main> 
+ 
+</body></html>
