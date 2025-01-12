@@ -3,8 +3,6 @@ PROJECT DESCRIPTION
 
 This project is a Food Menu web page for a restaurant. It showcases different categories of food items including Starters, Main Course, and Desserts. Each item has a description and a price. The menu items are displayed in a grid format, with images, names, descriptions, and prices for each food item.
 
-
-
 FEATURES:
 
 •	Responsive Layout: The page adjusts the grid to one column on smaller screens (e.g., mobile devices).
@@ -17,8 +15,7 @@ Instructions To Run The Project
 
 1.	Download the Project:
 
-Click the link below to download the project as a ZIP file: 
-
+Click the link below to download the project as a ZIP file: https://github.com/roshini82003/Food-menu-website.git
 
 
 2.	Extract the ZIP File:
@@ -26,11 +23,9 @@ Click the link below to download the project as a ZIP file:
 After downloading, extract the ZIP file to a folder on your computer.
 
 
-
 3.	Open the Project:
 
 Navigate to the extracted folder and open the index.html file in any web browser (e.g., Chrome, Firefox, etc.).
-
 
 
 4.	Interact with the Menu:
