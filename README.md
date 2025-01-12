@@ -1,3 +1,4 @@
+# Food-menu-website
 PROJECT DESCRIPTION
 
 This project is a Food Menu web page for a restaurant. It showcases different categories of food items including Starters, Main Course, and Desserts. Each item has a description and a price. The menu items are displayed in a grid format, with images, names, descriptions, and prices for each food item.
@@ -35,9 +36,3 @@ Navigate to the extracted folder and open the index.html file in any web browser
 4.	Interact with the Menu:
 
 Browse through the food categories and check out the interactive effects.
-
-
-
-
-
-# Food-menu-website
